@@ -18,3 +18,23 @@ $male.waypoint(function (direction) {
 }, { offset: '40%' });
 
 $('.nav').localScroll();
+
+
+$('#piggy').on('mouseover', function () {
+  $('#check').addClass('checkanimate');
+  $('#check1').addClass('checkanimate');
+  $('#check2').addClass('checkanimate');
+});
+
+$('#cow').on('mouseover', function () {
+  $('#check').addClass('checkanimate');
+  $('#check1').addClass('checkanimate');
+  $('#check2').addClass('checkanimate');
+});
+
+
+$('#chicken').on('mouseover', function () {
+  $('#check').addClass('checkanimate');
+  $('#check1').addClass('checkanimate');
+  $('#check2').addClass('checkanimate');
+});

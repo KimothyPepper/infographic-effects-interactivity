@@ -7,7 +7,7 @@ $female.waypoint(function (direction) {
   } else {
     $female.removeClass('js-svg-animate');
   }
-}, { offset: '40%' });
+}, {offset: '40%'});
 
 $male.waypoint(function (direction) {
   if (direction == 'down') {
@@ -15,10 +15,9 @@ $male.waypoint(function (direction) {
   } else {
     $male.removeClass('js-svg-animate');
   }
-}, { offset: '40%' });
+}, {offset: '40%'});
 
 $('.nav').localScroll();
-
 
 $('#piggy').on('mouseover', function () {
   $('#check').addClass('checkanimate');
@@ -31,7 +30,6 @@ $('#cow').on('mouseover', function () {
   $('#check1').addClass('checkanimate');
   $('#check2').addClass('checkanimate');
 });
-
 
 $('#chicken').on('mouseover', function () {
   $('#check').addClass('checkanimate');

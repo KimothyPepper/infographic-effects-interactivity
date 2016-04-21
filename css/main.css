@@ -42,7 +42,8 @@ a {
 
 ul {
   list-style-type: none;
-  }
+}
+
 .male {
   display: block;
   margin: 0 auto;
@@ -70,7 +71,7 @@ ul {
   animation: svg-jiggle 250ms linear;
 }
 
-@keyframes svg-jiggle
+@keyframes svg-jiggle {
 
   0% {
     transform: rotate(0);

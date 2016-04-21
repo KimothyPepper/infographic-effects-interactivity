@@ -1,5 +1,7 @@
 var $female = $('.female');
 var $male = $('.male');
+var $fish = $('.fish');
+var $bone = $('#bone');
 
 $female.waypoint(function (direction) {
   if (direction == 'down') {
@@ -14,6 +16,14 @@ $male.waypoint(function (direction) {
     $male.addClass('js-svg-animate');
   } else {
     $male.removeClass('js-svg-animate');
+  }
+}, {offset: '40%'});
+
+$fish.waypoint(function (direction) {
+  if (direction == 'down') {
+    $fish.addClass('js-svg-animate');
+  } else {
+    $fish.removeClass('js-svg-animate');
   }
 }, {offset: '40%'});
 

@@ -1,7 +1,6 @@
 var $female = $('.female');
 var $male = $('.male');
-var $fish = $('.fish');
-var $bone = $('#bone');
+var $carrot = $('.carrot');
 
 $female.waypoint(function (direction) {
   if (direction == 'down') {
@@ -19,11 +18,11 @@ $male.waypoint(function (direction) {
   }
 }, {offset: '40%'});
 
-$fish.waypoint(function (direction) {
+$carrot.waypoint(function (direction) {
   if (direction == 'down') {
-    $fish.addClass('js-svg-animate');
+    $carrot.addClass('carrot-animate');
   } else {
-    $fish.removeClass('js-svg-animate');
+    $carrot.removeClass('carrot-animate');
   }
 }, {offset: '40%'});
 

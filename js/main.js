@@ -1,6 +1,7 @@
 var $female = $('.female');
 var $male = $('.male');
 var $carrot = $('.carrot');
+var $carrottext = $('.carrottext');
 
 $female.waypoint(function (direction) {
   if (direction == 'down') {
@@ -23,6 +24,14 @@ $carrot.waypoint(function (direction) {
     $carrot.addClass('carrot-animate');
   } else {
     $carrot.removeClass('carrot-animate');
+  }
+}, {offset: '50%'});
+
+$carrottext.waypoint(function (direction) {
+  if (direction == 'down') {
+    $carrottext.addClass('carrottextanimate');
+  } else {
+    $carrottext.removeClass('carrottextanimate');
   }
 }, {offset: '40%'});
 

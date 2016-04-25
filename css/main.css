@@ -45,7 +45,14 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
 
+.carrottext {
+  opacity: 0;
+}
+
+.carrottextanimate {
+  opacity: 1;
 }
 
 .male {

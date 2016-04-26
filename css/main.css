@@ -248,6 +248,31 @@ a {
   opacity:1;
 }
 
+.cupanimate {
+  opacity: 1;
+  transform-origin: center center;
+  animation: cup-animate 2s infinite;
+}
+
+@keyframes cup-animate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(15deg);
+  }
+
+  66% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
 .st0 {
   fill: #39b54a;
 }
